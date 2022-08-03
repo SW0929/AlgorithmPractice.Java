@@ -1,5 +1,5 @@
 package a01;
-
+//학생이름 저장 및 검색
 import java.util.ArrayList;
 import java.util.Scanner;
 
