@@ -16,6 +16,7 @@ public class Main {
 		}
 		int c = b[0];
 		int d = 0;
+		
 		for(int i = 0; i< b.length; i++) {
 			if(c < b[i]) {
 				c = b[i];
@@ -23,6 +24,7 @@ public class Main {
 			}
 		}
 		System.out.println("ÃÖºó¼ö´Â %d, È½¼ö´Â %d".formatted(d, c));
+		sc.close();
 	}
 
 }
