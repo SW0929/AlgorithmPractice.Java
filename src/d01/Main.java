@@ -11,7 +11,7 @@ public class Main {
 		char a[] = new char[s.length()];
 		
 		for(int i = 0; i < a.length; i++) {
-			
+			//아스키 코드 더할 때는 ()가 필요없는데 뺄셈은 왜 필요한가?
 			if(s.charAt(i) >= 'a' && s.charAt(i) <= 'z' ) {
 				a[i] = (char)(s.charAt(i) + 'A'-'a');
 			}
