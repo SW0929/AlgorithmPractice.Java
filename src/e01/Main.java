@@ -1,5 +1,5 @@
 package e01;
-//소수 판별 (에라토스테네스의 체)
+//소수 판별 (에라토스테네스의 체 아님)
 
 import java.util.Scanner;
 public class Main {
@@ -7,25 +7,18 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
-		int a[] = new int[num];
-		
-		a[0] = a[1] = 1;
-		
-		for(int i = 2; i <= Math.sqrt(num); i++) {
-			
-			if(a[i] == 1) {
-				continue;
-			}
-			for(int j = i * i; j < a.length; j = j + 1) {
-				a[j] = 1;
+		int count = 0;
+		for(int i = 1; i <= num; i++) {
+			if(num % i == 0) {
+				count++;
 			}
 		}
-		for(int i = 2; i < a.length; i++) {
-			if(a[i] == 0) {
-				System.out.print(a[i] + " ");
-			}
+		if(count > 2) {
+			System.out.println(num+"은 소수가 아닙니다.");
 		}
-		
+		else {
+			System.out.println(num+"은 소수가 맞습니다.");
+		}
 		
 		
 		sc.close();
