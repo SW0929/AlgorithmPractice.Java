@@ -14,5 +14,6 @@ public class Main {
 			sum = sum + (int)(num.charAt(i)-'0');
 		}
 		System.out.println(sum);
+		sc.close();
 	}
 }
