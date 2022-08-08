@@ -1,6 +1,6 @@
 package f01;
 
-//입력된 수(N) 만큼 N행 N열의 형태로 연속으로 출력되는 숫자 사각형을 출력하시오.
+//입력된 수(N) 만큼 N행 N열의 형태로 연속으로 출력되는 숫자 사각형을 출력하시오.1
 import java.util.Scanner;
 public class Main {
 
