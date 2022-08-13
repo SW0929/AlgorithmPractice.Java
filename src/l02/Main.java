@@ -34,6 +34,7 @@ public class Main {
 		}
 		long second = System.currentTimeMillis();
 		System.out.println((second - first) / 1000);
+		br.close();
 	}
 
 }
