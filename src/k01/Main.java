@@ -30,9 +30,7 @@ public class Main {
 			}
 		}
 		long b = System.nanoTime();
-		System.out.println();
-		System.out.println(a);
-		System.out.println(b);
+		//걸린시간 0초
 		System.out.println((b-a)/1000000000);
 	}
 }
