@@ -4,7 +4,6 @@ package m01;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 import java.io.BufferedReader;
