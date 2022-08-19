@@ -11,7 +11,5 @@ public class Main {
 		int m = sc.nextInt();
 		System.out.println((int)Math.pow(n, m));
 		sc.close();
-
 	}
-
 }
