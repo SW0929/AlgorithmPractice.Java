@@ -28,11 +28,7 @@ public class Main {
 			System.out.println(m1);
 		else
 			System.out.println(m2);
-		
-		
-		
-		
-		
+		br.close();
 	}
 
 }
